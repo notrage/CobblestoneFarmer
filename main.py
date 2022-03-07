@@ -29,7 +29,7 @@ def reset_farming():
     tm.sleep(5)
     string_typing('tis')
     tm.sleep(5)
-    p.moveTo( SCREEN_WIDTH/2, 0, duration = 0.3 )
+    p.moveTo( SCREEN_WIDTH / 2, 0, duration = 0.3 )
     tm.sleep(2)
     k.press_and_release('f')
     tm.sleep(2)
