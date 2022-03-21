@@ -54,10 +54,12 @@ while True:
     
     if k.is_pressed('esc'): cobblestone_farming = disable_farming()
         
-    if ( k.is_pressed('r') ) or (
-        (d.datetime.now().minute in [00, 10, 20, 30, 40, 50]) and
-        (d.datetime.now().second == 00)
+    if (k.is_pressed('r') ) or (
+       (d.datetime.now().minute in [00, 10, 20, 30, 40, 50]) and
+       (d.datetime.now().second == 00)
                                 ): reset_farming()
+    
+    if d.datetime.now().second in [00, 10, 20, 30, 40, 50]: k.press_and_release('space')
         
     if cobblestone_farming:
         k.press('z + k')
