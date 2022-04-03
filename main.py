@@ -27,30 +27,26 @@ def disable_farming():
     return False
     
 def reset_proxy():
-    string_typing('tl')
-    time.sleep(7)
-    string_typing('tplay skyblock')
-    time.sleep(7)
     string_typing('thub')
     time.sleep(7)
     string_typing('tis')
     time.sleep(7)
     pyautogui.moveTo(SCREEN_WIDTH / 2, 0, duration = 0.3)
-    time.sleep(2)
+    time.sleep(1)
     keyboard.press_and_release('f')
-    time.sleep(2)
+    time.sleep(1)
     keyboard.press_and_release('f')
 
-print("COBBLESTONE FARMER MACHINE STARTING                                                     \n",
-      "- Press 'shift' to start farming                                                        \n",
-      "- Press 'esc' to stop farming                                                           \n",
-      "- Press 'r' to reset the cobblestone farm(it will reset automatically every 10 minutes) \n",
-      "- You must put your keybinds on this way:                                               \n",
+print("COBBLESTONE FARMER MACHINE STARTING                                                    \n",
+      "- Press 'shift' to start farming                                                       \n",
+      "- Press 'esc' to stop farming                                                          \n",
+      "- Press 'r' to reset the cobblestone farm(it will reset automatically every 10 minutes)\n",
+      "- You must put your keybinds on this way:                                              \n",
       "   'z': walk forward                                                                   \n",
       "   'k': destroy block                                                                  \n",
       "   't': open command chat                                                              \n",
       "   'f': toggle fullscreen mode                                                         \n",
-      "                                                                                        \n")
+      "                                                                                       \n")
 
 while True:
     
@@ -69,5 +65,5 @@ while True:
         keyboard.press('z + k')
         time.sleep(0.1)
      
-print("COBBLESTONE FARMER MACHINE CLOSING \n")
+print("COBBLESTONE FARMER MACHINE CLOSING\n")
 time.sleep(3)
