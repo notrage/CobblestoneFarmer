@@ -27,6 +27,8 @@ def disable_farming():
     return False
     
 def reset_proxy():
+    string_typing('tis')
+    time.sleep(7)
     string_typing('tplay skyblock')
     time.sleep(7)
     string_typing('thub')
