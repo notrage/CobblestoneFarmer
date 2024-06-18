@@ -1,6 +1,6 @@
 # Cobblestone Farmer
 ## Hos to use ?
-- First of all you need to clone this repository: `git clone git@github.com:notrage/cobblestone-farmer.git
+- First of all you need to clone this repository: `git clone git@github.com:notrage/cobblestone-farmer.git`
 - You will need to install these modules:
     - **pyautogui** using : `pip install pyautogui`
     - **keyboard** using : `pip install keyboard`
