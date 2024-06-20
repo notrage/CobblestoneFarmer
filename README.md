@@ -12,7 +12,7 @@ Also make sure you have all of these Python modules installed:
 ```bash
 git clone git@github.com:notrage/cobblestone-farmer.git
 ```
-2. Run the **Cobblestone Farmer** :
+2. Run the Cobblestone Farmer :
 ```bash
 python3 cobblestone_farmer.py
 ```
