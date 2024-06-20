@@ -5,9 +5,9 @@ Build the cobblestone farm as explained in [this video](https://youtu.be/NZjmIk7
 ## Installation
 To run the Crop Farmer on your local machine, make sure you have Python 3.10 or later installed.
 Also make sure you have all of these Python modules installed:
-- **pyautogui** using : `pip install pyautogui`
-- **keyboard** using : `pip install keyboard`
-- **tkinter** using : `sudo apt-get install python3-tk python3-dev`
+- pyautogui using : `pip install pyautogui`
+- keyboard using : `pip install keyboard`
+- tkinter using : `sudo apt-get install python3-tk python3-dev`
 1. Clone this git repository :
 ```bash
 git clone git@github.com:notrage/cobblestone-farmer.git
